@@ -9,27 +9,27 @@ import './Slider.css'
 
 const Slider = () => {
     return (
-        <div ClassName="s-container">
+        <div className="s-container">
             <Swiper
                 modules={[Pagination, Navigation]}
-                className='mySwiper'
+                className='mySwiper swipers'
                 navigation={true}
                 loopFillGroupWithBlank={true}
 
                 slidesPerView={3}
                 spaceBetween={40}
-                 slidesPerGroup={1}
+                slidesPerGroup={1}
                 loop={true}
             >
                 {SliderProducts.map((slide, i) => (
 
-                    <SwiperSlide>
+                    <SwiperSlide key={i}>
                         <div className="left-s">
-                            <di className="name">
+                            <div className="name">
                                 <span>{slide.name}</span>
                                 <span>{slide.detail}</span>
 
-                            </di>
+                            </div>
                             <span>{slide.price}$</span>
                             <div>Shop Now</div>
                         </div>

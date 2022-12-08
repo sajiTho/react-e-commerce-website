@@ -39,10 +39,11 @@
 .list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    height: 25rem;
+    height: 24rem;
     overflow-y: scroll;
     grid-gap: 2rem;
     justify-content: center;
+    padding-bottom: 2rem;
 
 }
 

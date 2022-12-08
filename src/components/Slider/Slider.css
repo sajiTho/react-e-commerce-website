@@ -1,7 +1,7 @@
 .s-container{
     position: relative;
 }
-.swiper{
+.swipers{
     width: 70%;
     height: 12rem;
     position: unset;
@@ -16,12 +16,12 @@
     position: relative;
 }
 .swiper-button-prev{
-    padding-top: 22%;
+    /* padding-top: 22%; */
     left: 6rem;
     color: black;
 }
 .swiper-button-next{
-    padding-top: 22%;
+    /* padding-top: 22%; */
     right: 6rem;
     color: black;
 }
